@@ -1,0 +1,14 @@
+REPLAY WINDOW (held-out, never trained on): 2026-10-07 to 2026-10-17
+
+anomalies.csv (130 rows): building_id, btype, metric, start, end, hours, excess_total, excess_pct, night_share, day_type, calendar_event, held_out, date, days_nearby, n_bldgs, cause, cause_type, score
+buildings.csv (8 rows): building_id, building_name, building_type, floors, area_sqm, design_capacity, has_solar, solar_capacity_kw, year_built, has_composter
+calendar.csv (120 rows): date, day_of_week, day_type, event, avg_temp_c, rainfall_mm, humidity_pct
+clean_hourly.csv (23040 rows): building_id, timestamp, received_at, electricity_kwh, water_litres, solar_generation_kwh, footfall, delay_h, was_missing, imputed
+clean_manual_logs.csv (415 rows): log_id, logged_at, logger_role, building, stream, value, unit, note, building_id, value_std, unit_std
+forecast_metrics.csv (4 rows): metric, horizon_h, test_rows, MAE_baseline, MAE_lightgbm, improvement_%, WAPE_%, coverage_raw_%, coverage_conformal_%
+forecasts_test.csv (8448 rows): building_id, origin_time, target_time, actual, baseline, metric, horizon_h, p10, p50, p90
+leaderboard_daily.csv (88 rows): building_id, date, elec_saving, water_saving, saving, status, points, building_name
+leaderboard_summary.csv (8 rows): rank, building_id, building_name, green_score, avg_saving_pct, streak_days, days_scored, days_held
+leak_savings.csv (1 rows): building_id, before_L_per_h, leak_L_per_h, after_fix_L_per_h, excess_L_per_day, est_rs_per_day, note
+recommendations.csv (192 rows): event_id, building_id, building_name, metric, start, end, hours, excess_pct, severity, cause, priority_score, action_rank, action, why, est_excess_cost_rs, manual_log_corroboration, confidence, held_out, priority_rank
+waste_events_test_predicted.csv (1601 rows): event_id, timestamp, building_id, bin_id, weight_g, moisture_pct, metal_signal, transparency, acoustic_hardness, predicted_category, confidence, needs_review

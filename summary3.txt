@@ -1,0 +1,38 @@
+== HOURLY ==
+rows before: 23192
+late readings (>3h): 243
+             count                 min                 max
+building_id                                               
+B01             27 2026-06-23 09:00:00 2026-10-16 02:00:00
+B02             25 2026-06-24 18:00:00 2026-10-14 20:00:00
+B03             31 2026-06-30 01:00:00 2026-10-08 01:00:00
+B04             41 2026-06-21 09:00:00 2026-10-11 06:00:00
+B05             45 2026-06-23 07:00:00 2026-10-17 16:00:00
+B06             32 2026-06-20 06:00:00 2026-10-16 16:00:00
+B07             25 2026-06-21 19:00:00 2026-10-08 01:00:00
+B08             17 2026-06-30 07:00:00 2026-10-17 23:00:00
+duplicate groups with conflicting values: 183
+rows after dedupe: 23008
+hours missing or blank: 101
+filled by interpolation: 86
+still blank after filling: 15
+
+== MANUAL LOGS ==
+unmapped building names: []
+units after cleaning: {'kWh': 152, 'L': 138, 'kg': 59, 'bags': 53, nan: 13}
+
+INCIDENT NOTES (ground truth):
+              logged_at building_id stream  value_std unit_std                                                                                           note
+143 2026-08-05 17:40:00         B06   note        NaN      NaN        Water meter running fast, tank refilling often. Wet patch near 3rd floor washroom pipe.
+154 2026-08-07 18:05:00         B06   note        NaN      NaN                        Plumber called. Leak suspected in underground line near block entrance.
+163 2026-08-10 17:20:00         B06   note        NaN      NaN                                                          Leak fixed by plumber. Line replaced.
+219 2026-08-27 16:30:00         B04   note        NaN      NaN                                 Power analyzer was being calibrated today, reading looked odd.
+248 2026-09-03 17:10:00         B02   note        NaN      NaN                                                Water meter stuck at zero, need to call vendor.
+272 2026-09-08 18:00:00         B05   note        NaN      NaN       Composter not working since yesterday, motor burnt. Wet waste going with normal garbage.
+296 2026-09-14 17:45:00         B05   note        NaN      NaN                                                       Composter motor replaced, working again.
+307 2026-09-18 16:50:00         B07   note        NaN      NaN                           Alumni meet tomorrow, expecting 1500+ people. Extra cooking planned.
+314 2026-09-20 17:15:00         B02   note        NaN      NaN              Electricity meter reading seems higher than last month though classes are normal.
+358 2026-10-02 19:05:00         B03   note        NaN      NaN  Holiday but AC and lights were left ON in main reading hall. Security noticed in the evening.
+376 2026-10-07 11:30:00         B04   note        NaN      NaN                                  Rooftop solar inverter showing red error light since Tuesday.
+383 2026-10-09 15:00:00         B04   note        NaN      NaN                                              Solar inverter reset by vendor, generating again.
+400 2026-10-12 17:35:00         B02   note        NaN      NaN                   Energy meter display flickers sometimes. Not sure if the reading is correct.

@@ -1,0 +1,2 @@
+building_id,before_L_per_h,leak_L_per_h,after_fix_L_per_h,excess_L_per_day,est_rs_per_day,note
+B06,2950,4679,3065,38727,1162,ESTIMATE: compares leak days with post-fix days; weekday mix differs; tariff assumed

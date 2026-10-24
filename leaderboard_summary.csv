@@ -1,0 +1,9 @@
+rank,building_id,building_name,green_score,avg_saving_pct,streak_days,days_scored,days_held
+1,B04,Engineering Labs & Innovation Centre,55.3,2.1,1,11,0
+2,B08,Admin Block,54.5,1.8,2,11,0
+3,B06,Girls Hostel,50.2,0.1,1,11,0
+4,B07,Food Court,49.8,-0.1,0,11,0
+5,B03,Central Library,49.4,-0.2,1,11,0
+6,B05,Boys Hostel,48.1,-0.8,1,11,0
+7,B01,Academic Block A,40.2,-3.9,1,11,0
+8,B02,Academic Block B,40.2,-3.9,1,11,0

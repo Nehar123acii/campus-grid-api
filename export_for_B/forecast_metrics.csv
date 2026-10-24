@@ -1,0 +1,5 @@
+metric,horizon_h,test_rows,MAE_baseline,MAE_lightgbm,improvement_%,WAPE_%,coverage_raw_%,coverage_conformal_%
+electricity_kwh,6,2112,5.04,2.64,47.5,6.9,73.6,85.5
+electricity_kwh,12,2112,5.04,2.77,45.0,7.2,71.2,91.0
+water_litres,6,2112,179.1,114.21,36.2,10.0,77.7,83.9
+water_litres,12,2112,179.1,125.45,30.0,11.0,77.5,90.3

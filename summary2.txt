@@ -1,0 +1,132 @@
+== HOURLY ==
+range: 2026-06-20 00:00:00 to 2026-10-17 23:00:00
+buildings: ['B01', 'B02', 'B03', 'B04', 'B05', 'B06', 'B07', 'B08']
+duplicate (timestamp,building): 184
+missing values:
+ timestamp                0
+received_at              0
+building_id              0
+electricity_kwh         69
+water_litres            69
+solar_generation_kwh     0
+footfall                69
+delay (hours):
+ count    23192.000000
+mean         1.127688
+std          0.530057
+min          1.016667
+25%          1.050000
+50%          1.083333
+75%          1.116667
+max         12.083333
+rows per building:
+ building_id
+B01    2900
+B02    2901
+B03    2893
+B04    2891
+B05    2913
+B06    2904
+B07    2893
+B08    2897
+describe:
+                            timestamp                    received_at  electricity_kwh  water_litres  solar_generation_kwh  footfall
+count                          23192                          23192         23123.00      23123.00              23192.00  23123.00
+mean   2026-08-19 00:26:54.660227840  2026-08-19 01:34:34.338565120            33.07        929.58                  4.75    407.58
+min              2026-06-20 00:00:00            2026-06-20 01:01:00             1.35          0.00                  0.00      0.00
+25%              2026-07-20 01:00:00            2026-07-20 02:07:15             9.72         23.00                  0.00     20.00
+50%              2026-08-19 00:30:00            2026-08-19 01:35:00            21.53        200.00                  0.00    178.00
+75%              2026-09-18 00:00:00            2026-09-18 01:03:15            44.92        901.00                  0.00    575.00
+max              2026-10-17 23:00:00            2026-10-18 07:01:00           412.99      11074.00                 75.69   3000.00
+std                              NaN                            NaN            34.89       1728.71                 12.15    580.47
+
+== BUILDINGS ==
+   building_id                         building_name building_type  has_solar
+0         B01                      Academic Block A      academic          1
+1         B02                      Academic Block B      academic          0
+2         B03                       Central Library       library          0
+3         B04  Engineering Labs & Innovation Centre          labs          1
+4         B05                           Boys Hostel        hostel          0
+5         B06                          Girls Hostel        hostel          0
+6         B07                            Food Court          food          1
+7         B08                           Admin Block         admin          0
+
+== CALENDAR ==
+day_type
+working           55
+semester_break    30
+weekend           24
+exam               9
+holiday            2
+events:
+            date                                                       event
+0    2026-06-20               Summer break commencement & hostel inspection
+3    2026-06-23                      Annual electrical substation servicing
+7    2026-06-27              STP and rainwater harvesting plant maintenance
+11   2026-07-01                Summer internship & research bootcamp starts
+16   2026-07-06           Faculty Development Programme (FDP) on AI & Cloud
+20   2026-07-10                   FDP valedictory session & lab calibration
+24   2026-07-14                   Campus IT infrastructure & server upgrade
+27   2026-07-17    Freshers admission counselling & hostel allotment begins
+29   2026-07-19             New student check-in & parent welcome reception
+30   2026-07-20                                         Odd semester begins
+31   2026-07-21            Freshers orientation & library card registration
+32   2026-07-22           Campus induction & department lab safety briefing
+35   2026-07-25         Student council elections & club registration drive
+39   2026-07-29            Tree plantation drive by Green Campus Initiative
+42   2026-08-01                     Inter-hostel sports league inauguration
+46   2026-08-05           Guest lecture on Sustainable Energy & Smart Grids
+49   2026-08-08   24-hour campus hackathon (high lab power & mess footfall)
+53   2026-08-12                    International Youth Day debate & seminar
+56   2026-08-15                                            Independence Day
+60   2026-08-19              Blood donation camp at student activity center
+63   2026-08-22                    Cultural club open mic & drama auditions
+67   2026-08-26                   Campus placement registration & mock test
+70   2026-08-29             National Sports Day inter-department tournament
+74   2026-09-02         Workshop on IoT Sensor Networks in Engineering Labs
+77   2026-09-05             Teachers Day celebration & faculty felicitation
+81   2026-09-09      Campus placement drive Day 1 (high computer lab usage)
+84   2026-09-12                 Robotics club bot-combat workshop & display
+87   2026-09-15  Engineers Day: Prototype Expo & technical project showcase
+91   2026-09-19                          Alumni meet (food court very busy)
+95   2026-09-23              Pre-midsem doubt clearing sessions & tutorials
+97   2026-09-25       Central Library 24x7 reading halls open for exam prep
+100  2026-09-28                                    Mid-semester exams begin
+101  2026-09-29               Mid-sem Day 2 (Core Engineering theory exams)
+102  2026-09-30              Mid-sem Day 3 (Departmental core theory exams)
+103  2026-10-01               Mid-sem Day 4 (Mathematics & sciences papers)
+104  2026-10-02                                              Gandhi Jayanti
+107  2026-10-05           Mid-sem Day 5 (Engineering lab practicals & viva)
+108  2026-10-06                    Mid-sem Day 6 (Computing lab practicals)
+109  2026-10-07                Mid-sem Day 7 (Elective course theory exams)
+110  2026-10-08           Mid-sem Day 8 (Open elective & humanities papers)
+111  2026-10-09        Mid-sem Day 9 (Final theory papers & project review)
+112  2026-10-10                                Mid-semester exams end (Sat)
+113  2026-10-11                   Post-exam hostel mess feast & movie night
+114  2026-10-12                                              Classes resume
+116  2026-10-14               Technical symposium committee kickoff meeting
+118  2026-10-16            Annual cultural fest band auditions & rehearsals
+119  2026-10-17                 Weekend club activities & IoT project demos
+
+== MANUAL LOGS ==
+building -> {'admin block': 18, 'B08': 16, 'Admin': 15, 'Academic Block B': 14, 'BH': 14, 'B02': 14, 'labs': 14, 'B05': 13, 'Engineering Labs & Innovation Centre': 13, 'Block B': 13, 'Acad Block B': 13, 'B07': 13, 'B06': 13, 'Innovation Centre': 13, 'Girls Hostel': 12, 'Library': 12, 'Admin Block': 12, 'central lib': 12, 'academic block a': 12, 'Canteen': 12, 'block A': 12, 'B03': 11, 'Central Library': 10, 'Boys Hostel': 10, 'Academic Block A': 10, 'Acad Block A': 10, 'Food Court': 9, 'B04': 9, 'Girls hostle': 9, 'Eng Labs': 8, 'food court': 8, 'FC': 8, 'boys hostel': 8, 'GH': 8, 'girls hostel': 8, 'B01': 6, 'Boys Hostle': 3}
+stream -> {'electricity': 152, 'water': 138, 'waste': 112, 'note': 13}
+unit -> {'kWh': 98, 'kL': 74, 'L': 64, 'kg': 59, 'units': 54, 'bags': 53, nan: 13}
+logger_role -> {'facility_staff': 133, 'warden': 53, 'hostel_supervisor': 45, 'student_volunteer': 44, 'office_staff': 36, 'lab_technician': 33, 'mess_supervisor': 28, 'kitchen_staff': 22, 'librarian': 21}
+notes: {'counted at end of day': 61, 'evening reading': 49, 'as per meter': 49, 'approx': 48, 'daily total': 40, 'manual cross-check': 7, 'Water meter running fast, tank refilling often. Wet patch near 3rd floor washroom pipe.': 1, 'Plumber called. Leak suspected in underground line near block entrance.': 1, 'Leak fixed by plumber. Line replaced.': 1, 'Power analyzer was being calibrated today, reading looked odd.': 1}
+
+== WASTE ==
+categories: {'food_organic': 1852, 'plastic': 1722, 'paper_cardboard': 1461, 'metal': 608, 'ewaste': 351, 'glass': 320}
+train range: 2026-06-20 04:36:28 to 2026-10-17 23:55:44
+test range: 2026-06-20 10:38:58 to 2026-10-17 21:47:54
+missing in train:
+ event_id               0
+timestamp              0
+building_id            0
+bin_id                 0
+weight_g             127
+moisture_pct         129
+metal_signal         125
+transparency         116
+acoustic_hardness    123
+category               0
